@@ -10,7 +10,7 @@
     "start": "babel-node app.js"
   },
   "engines": {
-    "node": "6.9.0"
+    "node": "8.9.0"
   },
   "author": "Nataliia Zhurbenko",
   "license": "ISC",
