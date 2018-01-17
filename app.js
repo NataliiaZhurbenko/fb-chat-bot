@@ -18,4 +18,4 @@ bot.on('message', async message => {
 
 const app = express();
 app.use('/facebook', bot.router());
-app.listen(3000);
+app.listen(process.env.PORT || 5000);
