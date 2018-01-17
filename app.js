@@ -1,7 +1,7 @@
 import express from 'express';
 import {Bot, Elements} from 'facebook-messenger-bot';
 
-const myPageAccessToken = 'EAAaJrr9vw1UBACM9BZBdRtw1JRa6xccprEYCgkNaIrUbJ6lxorizLH03IG8jlbawjuSx2u1ud3gGAEnKyJZCadXO1d2DKYlsEM7GGcaGD7lJknMbLgMBNGm5wsgvwYQZBpWUc8vH2BCJR77ZAveLii1Xyd1MLL9KVhKtjXZASC8c9bC2epxJj';
+const myPageAccessToken = 'EAAaJrr9vw1UBAP1xaphnBbcR2i816Rq8OMWqtZBijMobPGxjiLUegEP9KQUZCAF5ySu3gBi9hLWZCwHvgkf2Ro3AIgK6MZBank2TVsbCZAmyZBmkojjFjBzsIWgNWhpZAKlDkryaeZCZCcOQ1C5A3qZBRbPGFR4OzCai0E9n9sBpdAiiKhhNesSZBqr';
 const myVerification = 'secret';
 
 const bot = new Bot(myPageAccessToken, myVerification);
